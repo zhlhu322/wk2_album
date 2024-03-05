@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   },
   cardContainerStyle: {
     borderWidth: 1,
-    borderRadius: 2,
+    borderRadius: 3,
     borderColor: "#ddd",
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
