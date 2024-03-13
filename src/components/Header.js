@@ -1,10 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const Header = () => {
+
+const Header = ({title}) => {
     return(
         <View style = {styles.headerStyle}>
-            <Text style={styles.textStyle}>Albums</Text>
+            <Text style={styles.textStyle}>{title}</Text>
         </View>      
     );
 };
@@ -14,7 +15,7 @@ const styles = StyleSheet.create({
         backgroundcolor:"#F8F8F8",
         justifyContent:"center",
         alignItems:"center",
-        height:40,
+        height:60,
         shadowColor:"#000",
         shadowOffest:{ width:0, height:2 },
         shadowOpacity: 0.1,
